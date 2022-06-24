@@ -111,8 +111,7 @@ class Room
     {
         // String returnItems = "Items:";
         String returnItems = "";
-        System.out.print("Items: ");
-        for(int x = 0; x < items.size(); x++) {
+        for(int x = 0; x < items.size(); ++x) {
             // grab an item, and add it to the display message
             Item i1 = (Item)items.get(x);
             returnItems += " " +i1.getDescription();

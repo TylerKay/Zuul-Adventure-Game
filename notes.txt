@@ -1,0 +1,21 @@
+Some notes:
+
+Notes 6/22:
+	- Take command: "take"
+	- Drop command: "drop"
+	- Items command: "items"
+	- Eat command: "eat"
+
+	- Maximum weight that player can carry can be modified in the Player class. I just set it to 50 for testing purposes but you could modify it to make more sense for your adventure game.
+	- Magic cookie increases maximum "inventory" weight a player can hold by 20. You can modify this by changing 20 to some other number.
+	
+
+Notes 6/23:
+	- Battle command: "battle"
+	- Equip command: "equip"
+		(Use to equip weapons)
+	- Enemies, items, health potions, and room settings
+		- can be modified in the createRooms() method in the Game class:
+	- A key must be in inventory to unlock the lockedEntrance room. This room is needed to get to the end where you will defeat the ender dragon and beat the game.
+		- Keys are currently located in: 
+			bastion, jungle temple chest room, desert temple, crimson forest 3, and lab
